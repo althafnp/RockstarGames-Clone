@@ -315,9 +315,20 @@ header{
 .foot-2 .links a:hover{
     color: #fcaf17;
 }
-.foot-2 .icons{
-    display: flex;
-    gap: 40px;
+
+.icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--secondary-color);
+    margin-right: 15px;
+}
+.icons .fa-brands:hover{
+    background-color: rgb(39, 39, 39);
 }
 
 
